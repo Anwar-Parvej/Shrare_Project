@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.center{
+    text-align: center;
+}
+p{
+    font-size: 12px;
+}
+.main_div{
+    width: 1366px;
+    background: #fff;
+    margin: 0 auto;
+}
+/* Menu */
+
+
+.header li{
+    display: inline-block;
+    margin-left: -6px;
+    margin-left: 20px;
+}
+
+.header ul a{
+    padding: 10px 20px;
+    background-color: #dddddd;
+    margin-top: 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.header ul a:hover{
+    background-color: #b8e994;
+    color: black;
+}
+
+/* Title-bar */
+
+.title {
+	/* text-align: center; */
+	/* margin: 0 auto; */
+	/* height: 200px;
+	background: #f6f6f6; */
+	/* padding: -7px -29px; */
+	/* margin-left: 20px;
+	margin-right: 20px;
+    margin-top: 25px; */
+    background-color: #F6F6F6;
+    padding: 30px;
+    margin: 0 30px;
+    margin-bottom: 20px;
+}
+
+h1{
+    color: #a52a2a;
+    /* padding: 30px 10px; */
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+
+/* Middle-menu */
+
+
+
+/* .cent-menu::after{
+    content: "";
+    clear: both;
+    display: block;
+} */
+
+img{
+    width: 38%;
+    float: left;
+}
+
+/* .img-menu img{
+    width: 100%;
+    max-width: 100%;
+} */
+
+.list-menu{
+    width: 62%;
+    float: right;
+}
+h2{
+    background: #dddddd;
+    padding-left: 230px;
+}
+p{
+    margin-top: 10px;
+}
+
+
+.subdr{
+    padding-left: 230px;
+}
+
+h3{
+    color: #a5333c;
+    padding-top: 20px;
+    
+}
+h4{
+    margin-top: 10px;
+}
+.list-menu ul{
+    margin-top: 10px;
+}
+
+
+/* Service */
+.serv-tag a{
+    background-color: #DDD;
+    color: #000;
+    display: inline-block;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #000;
+    box-shadow: 1px 1px 1px #000;
+    margin-bottom: 20px;
+    text-decoration: none;
+    margin-left: 114px;
+  /* font-weight: bold; */
+  margin-top: 108px;
+  /* margin-left: -129px; */
+}
+.serv-tag a:hover{
+    background-color: #0a3d62;
+    color: #fff;
+    border: 1px solid rgb(143, 131, 131);
+    box-shadow: 1px 1px 1px rgb(153, 144, 144);
+}
+.service{
+    margin-top: 10px;
+}
+.service-all{
+    float: left;
+    width: 31%;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: #DDD;
+}
+.service-all h5{
+    /* margin: 5px; */
+    font-size: 20px;
+}
+
+
+/* footer-menu */
+
+.footer{
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #dddddd;
+    color: black;
+    /* text-align: center; */
+    border-top: 2px solid black;
+}
